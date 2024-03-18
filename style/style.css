@@ -1,0 +1,57 @@
+/* Selector universal */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image:url(https://i.pinimg.com/564x/9e/33/42/9e33428c138c2292ec31e98b939500dd.jpg);
+    background-size: cover; /* agar gambar mengisi seluruh latar belakang */
+    background-position: center; /* agar gambar terletak di tengah latar belakang */
+}
+
+.card{
+    padding: 40px;
+    width: 20%;
+    border-radius: 50px; /* Mengatur sudut bingkai */
+    height: auto;
+    border: 4px solid rgb(9, 9, 9); /* Menambahkan bingkai ketebalan 4px  */
+    justify-content: center;
+}
+
+.card img{
+        border-radius: 5px;
+        width: 20%;
+        height: auto;
+}
+
+.img{
+    width: 450px;
+    height: auto;
+}
+    
+h1{ /* Mengatur header1 */
+    padding: 2%;
+    color:black;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Garamond', monospace;
+}
+
+h2{ /* Mengatur header2 */
+    padding: 2%;
+    color:black;
+    font-size: 30px;
+}
+
+p{ /* Mengatur paragraf */
+    padding: 1%;
+    font-family: 'Garamond', monospace;
+    text-align: center;
+}

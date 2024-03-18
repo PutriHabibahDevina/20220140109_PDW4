@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css"> <!-- CSS Eksternal -->
+    <title>Resep Makanan Indonesia</title>
+</head>
+
+<body>
+    <div>
+        <h1 style="font-family: 'Garamond', monospace;">Resep Makanan Indonesia</h1>
+        <img class="img" src="./assets/sayur asem.jpg" alt="sayur asem"> 
+        <img class="img" src="./assets/es dawet.jpg" alt="es dawet">
+        
+        <p id="waktu"></p>
+        <script src="./script/main.js"></script> <!-- Memanggil JS -->
+
+        <p>"Terinspirasi dari kekayaan bumbu-bumbu tradisional, nikmati petualangan rasa autentik Indonesia dalam setiap suapan."</p>
+        
+        <style> /* Internal CSS */
+            p{
+                color:black;
+                font-size: 20px;
+            }
+         </style>
+    </div>
+    
+    <div class="login-form"> 
+        <h2>Login</h2>
+        <form> <!-- Elemen form untuk mengumpulkan data pengguna -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </form>
+        <style> /* Internal CSS */
+            label {
+                color: black;
+                display: flex;
+            }
+        </style>
+
+        <!-- Install sweet alert ke dalam project dengan tag ini -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <!-- Memanggil function pada button -->
+        <button onclick="sweetAlert()" type="submit">Login</button> 
+    </div>
+    <script>
+        function sweetAlert(){
+            alert("Login Berhasil!");
+        }
+    </script>
+</body>
+</html>
